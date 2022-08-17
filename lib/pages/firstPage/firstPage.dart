@@ -36,7 +36,7 @@ class _FirstPageState extends State<FirstPage> {
                 Navigator.of(context)
                     .pushNamed(SecondPage.route, arguments: {'data': 13});
               },
-              color: Colors.red,
+              color: Colors.yellow,
               child: const Text('Second'),
             )
           ],
